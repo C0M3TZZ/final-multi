@@ -18,7 +18,7 @@ let test = [
 ];
 
 let goto = (path) => {
-    window.location.href = `/${path}`;
+    window.location.href = `/${path}/index.html`;
 }
 
 let genContent = (data) => {
